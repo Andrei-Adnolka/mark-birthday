@@ -1,0 +1,11 @@
+@import '../../common.scss';
+
+.clothes {
+  @include wrapper;
+  &__title {
+    @include title;
+  }
+  &__text {
+
+  }
+}

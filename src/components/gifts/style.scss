@@ -1,0 +1,31 @@
+@import '../../common.scss';
+
+.gifts {
+  @include wrapper;
+  &__title {
+    @include title;
+    color: #193248;
+  }
+  &__list {
+
+    .gift {
+      display: flex;
+
+      &__title {
+        @include commonText;
+        @include media-md {
+          text-align: left
+        }
+      }
+      &__link {
+        @include commonText;
+        text-decoration: none;
+        transition: color .2s ease-in-out;
+        margin-left: 8px;
+        &:hover {
+          color: #0c2134;
+        }
+      }
+    }
+  }
+}
