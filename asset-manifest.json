@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/mark-birthday/static/css/main.753da214.css",
-    "main.js": "/mark-birthday/static/js/main.8eb01f51.js",
-    "static/media/main.jpg": "/mark-birthday/static/media/main.dd210ead82fdd015a671.jpg",
-    "static/media/slider-2.jpg": "/mark-birthday/static/media/slider-2.770f97ceafb194a6aa2d.jpg",
-    "static/media/slider-3.jpg": "/mark-birthday/static/media/slider-3.bc10fecacff1e8f609a4.jpg",
-    "static/media/slider-1.jpg": "/mark-birthday/static/media/slider-1.a1b18231f6949cd56edf.jpg",
-    "static/media/slider-0.jpg": "/mark-birthday/static/media/slider-0.140868bb9ce563650684.jpg",
-    "static/media/slider-4.jpg": "/mark-birthday/static/media/slider-4.c315a1d5c65b4da2ed1e.jpg",
-    "static/media/slider-5.jpg": "/mark-birthday/static/media/slider-5.2b564613a85e4bab3024.jpg",
+    "main.css": "/mark-birthday/static/css/main.b49a495b.css",
+    "main.js": "/mark-birthday/static/js/main.09b8ee7b.js",
+    "static/media/main.jpg": "/mark-birthday/static/media/main.08008400ad23e01d3b5f.jpg",
+    "static/media/slider-2.jpg": "/mark-birthday/static/media/slider-2.a369ff18415371e1cab4.jpg",
+    "static/media/slider-8.jpg": "/mark-birthday/static/media/slider-8.5e1d39aeec60a58002f8.jpg",
+    "static/media/slider-3.jpg": "/mark-birthday/static/media/slider-3.1729ed3bd1b2ec54e608.jpg",
+    "static/media/slider-0.jpg": "/mark-birthday/static/media/slider-0.76603932493cc4472fbf.jpg",
+    "static/media/slider-1.jpg": "/mark-birthday/static/media/slider-1.d87212d9464115e1b6ee.jpg",
     "static/media/car.png": "/mark-birthday/static/media/car.52efed68ea9a56f02468.png",
+    "static/media/slider-5.jpg": "/mark-birthday/static/media/slider-5.8093e57809768d75f282.jpg",
+    "static/media/slider-4.jpg": "/mark-birthday/static/media/slider-4.cc90f8200bdc49249532.jpg",
+    "static/media/slider-7.jpg": "/mark-birthday/static/media/slider-7.1d0caec944abed705a6c.jpg",
+    "static/media/slider-6.jpg": "/mark-birthday/static/media/slider-6.f91f64a0e60e25eafee3.jpg",
     "static/media/mark-placemark.png": "/mark-birthday/static/media/mark-placemark.99e02314aa5cdc33f128.png",
     "index.html": "/mark-birthday/index.html",
-    "main.753da214.css.map": "/mark-birthday/static/css/main.753da214.css.map",
-    "main.8eb01f51.js.map": "/mark-birthday/static/js/main.8eb01f51.js.map"
+    "main.b49a495b.css.map": "/mark-birthday/static/css/main.b49a495b.css.map",
+    "main.09b8ee7b.js.map": "/mark-birthday/static/js/main.09b8ee7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.753da214.css",
-    "static/js/main.8eb01f51.js"
+    "static/css/main.b49a495b.css",
+    "static/js/main.09b8ee7b.js"
   ]
 }
