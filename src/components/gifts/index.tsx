@@ -14,7 +14,7 @@ const CONFIG = [
     link: "https://www.wildberries.ru/catalog/84890031/detail.aspx?targetUrl=MS&size=138661201",
   },
   { title: `${ICON} Набор Пиклера (треугольник и горка)` },
-  { title: "Бассейн с шариками (постельных тонов)" },
+  { title: `${ICON} Бассейн с шариками (постельных тонов)` },
   {
     title: `${ICON} Набор книжек 1`,
     link: "https://www.wildberries.ru/catalog/42519542/detail.aspx?targetUrl=GP&size=85024832",

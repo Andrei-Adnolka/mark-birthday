@@ -2,6 +2,9 @@
 
 .clothes {
   @include wrapper;
+  background-color: #6595AC;
+  color: white;;
+
   &__title {
     @include title;
   }
