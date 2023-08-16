@@ -24,7 +24,7 @@ const CONFIG = [
     title: `${ICON} Игрушка каталка`,
     link: "https://www.wildberries.ru/catalog/27771460/detail.aspx?targetUrl=GP&size=63227223",
   },
-  { title: `${ICON} Сертификат в магазин "Детский мир"` },
+  { title: `<s>${ICON} Сертификат в магазин "Детский мир"</s>` },
   { title: `<s>${ICON} Сертификат в магазин "Zara"</s>` },
 ];
 
