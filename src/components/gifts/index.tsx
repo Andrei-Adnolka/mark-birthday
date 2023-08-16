@@ -25,7 +25,7 @@ const CONFIG = [
     link: "https://www.wildberries.ru/catalog/27771460/detail.aspx?targetUrl=GP&size=63227223",
   },
   { title: `${ICON} Сертификат в магазин "Детский мир"` },
-  { title: `${ICON} Сертификат в магазин "Zara"` },
+  { title: `<s>${ICON} Сертификат в магазин "Zara"</s>` },
 ];
 
 const GiftsUI = () => {
