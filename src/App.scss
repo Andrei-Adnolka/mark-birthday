@@ -35,7 +35,7 @@
     font-size: 40px;
     line-height: 44px;
     font-weight: 700;
-    text-wrap: nowrap;
+    white-space: nowrap;
     @include media-md {
       font-size: 32px;
       line-height: 36px;
@@ -43,7 +43,7 @@
       top: 35%;
       left: 20px;
       transform: initial;
-      text-wrap: initial;
+      white-space: initial;
       width: 100%;
     }
   }

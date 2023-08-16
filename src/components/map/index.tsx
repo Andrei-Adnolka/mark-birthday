@@ -54,7 +54,7 @@ const MapUI = () => {
             className="map_text"
             dangerouslySetInnerHTML={{
               __html: `Дата: 09.09.23 <br> 
-                 Время: 13:00 <br>
+                 Время: 14:00 <br>
                  Адрес: ул. Михаила Савицкого 10, Минск <br>
                  <a href='https://www.instagram.com/varezhka_by/' target= _blank>Детский клуб-кофейня "Варежка" <img src=${varejka} alt="varejka" /></a>`,
             }}

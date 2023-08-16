@@ -9,10 +9,7 @@ const CONFIG = [
     link: "https://www.wildberries.ru/catalog/84890031/detail.aspx?targetUrl=MS&size=138661201",
   },
   { title: `${ICON} Башня помощница` },
-  {
-    title: `${ICON} Стол и стульчик (белого или бежевого цвета)`,
-    link: "https://www.wildberries.ru/catalog/84890031/detail.aspx?targetUrl=MS&size=138661201",
-  },
+  { title: `${ICON} Бизиборд` },
   { title: `${ICON} Набор Пиклера (треугольник и горка)` },
   { title: `${ICON} Бассейн с шариками (постельных тонов)` },
   {
@@ -27,14 +24,14 @@ const CONFIG = [
     title: `${ICON} Игрушка каталка`,
     link: "https://www.wildberries.ru/catalog/27771460/detail.aspx?targetUrl=GP&size=63227223",
   },
-  { title: `${ICON} Сертификат в магазин Детский мир` },
-  { title: `${ICON} Сертификат в магазин Zara` },
+  { title: `${ICON} Сертификат в магазин "Детский мир"` },
+  { title: `${ICON} Сертификат в магазин "Zara"` },
 ];
 
 const GiftsUI = () => {
   return (
     <div className="gifts">
-      <div className="gifts__title">Таааксс. И что же вам мне подарить</div>
+      <div className="gifts__title">Таааксс. И что же вам мне подарить*</div>
       <div className="gifts__list">
         {CONFIG.map(({ title, link }) => {
           return (
@@ -48,6 +45,9 @@ const GiftsUI = () => {
             </div>
           );
         })}
+      </div>
+      <div className="gifts__note">
+        * Если что то забронировали, из подарка, дайте моим владельцам знать
       </div>
     </div>
   );
