@@ -11,7 +11,7 @@ const CONFIG = [
   { title: `${ICON} Башня помощница` },
   { title: `${ICON} Бизиборд` },
   { title: `${ICON} Набор Пиклера (треугольник и горка)` },
-  { title: `${ICON} Бассейн с шариками (постельных тонов)` },
+  { title: `<s>${ICON} Бассейн с шариками (постельных тонов)</s>` },
   {
     title: `${ICON} Набор книжек 1`,
     link: "https://www.wildberries.ru/catalog/42519542/detail.aspx?targetUrl=GP&size=85024832",
@@ -36,7 +36,10 @@ const GiftsUI = () => {
         {CONFIG.map(({ title, link }) => {
           return (
             <div key={title} className="gift">
-              <div className="gift__title">{title}</div>
+              <div
+                className="gift__title"
+                dangerouslySetInnerHTML={{ __html: title }}
+              />
               {link ? (
                 <a href={link} className="gift__link">
                   ☞ Тык
