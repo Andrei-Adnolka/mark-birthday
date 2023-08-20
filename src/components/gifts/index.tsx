@@ -8,7 +8,7 @@ const CONFIG = [
     title: `<s>${ICON} Стол и стульчик (белого или бежевого цвета)</s>`,
     link: "https://www.wildberries.ru/catalog/84890031/detail.aspx?targetUrl=MS&size=138661201",
   },
-  { title: `${ICON} Башня помощница` },
+  { title: `<s>${ICON} Башня помощница</s>` },
   { title: `${ICON} Бизиборд` },
   { title: `${ICON} Набор Пиклера (треугольник и горка)` },
   { title: `<s>${ICON} Бассейн с шариками (постельных тонов)</s>` },
