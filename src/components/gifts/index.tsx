@@ -5,7 +5,7 @@ const ICON = "🎁";
 const CONFIG = [
   { title: `<s>${ICON} Мольберт для рисования с грифельной доской</s>` },
   {
-    title: `${ICON} Стол и стульчик (белого или бежевого цвета)`,
+    title: `<s>${ICON} Стол и стульчик (белого или бежевого цвета)</s>`,
     link: "https://www.wildberries.ru/catalog/84890031/detail.aspx?targetUrl=MS&size=138661201",
   },
   { title: `${ICON} Башня помощница` },
@@ -21,7 +21,7 @@ const CONFIG = [
     link: "https://www.wildberries.ru/catalog/117786531/detail.aspx?targetUrl=GP&size=209796688",
   },
   {
-    title: `${ICON} Игрушка каталка`,
+    title: `<s>${ICON} Игрушка каталка</s>`,
     link: "https://www.wildberries.ru/catalog/27771460/detail.aspx?targetUrl=GP&size=63227223",
   },
   { title: `<s>${ICON} Сертификат в магазин "Детский мир"</s>` },
