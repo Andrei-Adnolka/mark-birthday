@@ -5,7 +5,7 @@ import { useRef, useState, useCallback } from "react";
 import { YMaps, Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
 
 import { getPlacemarkLayout } from "./placemarkLayout";
-import car from "../../photos/car.png";
+import car from "../../photos/misha.png";
 
 import varejka from "../../photos/varejka.png";
 
@@ -31,7 +31,7 @@ const MapUI = () => {
   return (
     <div className="wrapper">
       <YMaps query={{ lang: "ru_RU" }}>
-        <div className="map_title">Буду ждать вас туть</div>
+        <div className="map_title">Местро встречи изменить нельзя!</div>
         <div className="map_container">
           <Map
             state={{ center: [53.8678872, 27.529788], zoom: 17 }}
@@ -54,7 +54,7 @@ const MapUI = () => {
             className="map_text"
             dangerouslySetInnerHTML={{
               __html: `Дата: 09.09.23 <br> 
-                 Время: 14:00 <br>
+                 Время: 17:00 <br>
                  Адрес: ул. Михаила Савицкого 10, Минск <br>
                  <a href='https://www.instagram.com/varezhka_by/' target= _blank>Детский клуб-кофейня "Варежка" <img src=${varejka} alt="varejka" /></a>`,
             }}

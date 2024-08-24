@@ -37,11 +37,36 @@
     font-weight: 700;
     white-space: nowrap;
     @include media-md {
-      font-size: 32px;
-      line-height: 36px;
+      font-size: 28px;
+      line-height: 32px;
       transform: translate(-40%);
       top: 35%;
-      left: 20px;
+      left: 0px;
+      transform: initial;
+      white-space: initial;
+      width: 100%;
+      text-align: center;
+
+    }
+  }
+
+  &--timer {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center;
+    @include media-md {
+      font-size: 28px;
+      line-height: 32px;
+      transform: translate(-40%);
+      top: 55%;
+      left: 0px;
       transform: initial;
       white-space: initial;
       width: 100%;
@@ -64,7 +89,7 @@
   font-size: 32px;
   line-height: 32px;
   color: white;
-  background-color: #6595AC;
+  background-color: #0d7c3b;
   @include media-md {
     font-size: 24px;
     line-height: 28px;

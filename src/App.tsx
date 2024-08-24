@@ -7,6 +7,7 @@ import Gifts from "./components/gifts";
 import SliderUI from "./components/slider";
 
 import "./App.scss";
+import { TimerUI } from "./components/timer";
 
 function App() {
   return (
@@ -19,18 +20,20 @@ function App() {
         <span
           className="main--title"
           dangerouslySetInnerHTML={{
-            __html: "Всем привет! <br> Я Марк и мне скоро будет годик!",
+            __html:
+              "Всем Внимание! <br/>Спасибо за внимание!<br/> Вот мне и 2!!! <br/> Как быстро, но не об этом",
           }}
         />
+        <TimerUI />
       </div>
       <div className="invite">
-        Хотел бы пригласить вас встретить его со мной
+        Хотел бы пригласить вас провести этот праздник со мной
       </div>
       <MapUI />
       <Gifts />
       <ClothesInfo />
       <SliderUI />
-      <div className="thanks_block">Всем спасибо и жду жду жду! жу жу жу</div>
+      <div className="thanks_block">Уже жду вас! Всех люблю</div>
     </div>
   );
 }
