@@ -1,4 +1,3 @@
-import "react-image-gallery/styles/scss/image-gallery.scss";
 import logo from "./photos/main.jpg";
 
 import MapUI from "./components/map";
