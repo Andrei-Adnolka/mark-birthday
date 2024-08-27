@@ -17,7 +17,8 @@
           text-align: left
         }
       }
-      &__link {
+      &__link,
+      &__span {
         @include commonText;
         text-decoration: none;
         transition: color .2s ease-in-out;
@@ -27,6 +28,9 @@
         &:hover {
           color: #0c2134;
         }
+      }
+      &__span {
+        color: #0c2134;
       }
     }
   }

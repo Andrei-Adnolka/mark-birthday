@@ -20,8 +20,7 @@ const CONFIG = [
     link: "https://www.funtastik.by/igrushki/konstruktory-polese/",
   },
   {
-    title: `${ICON} Баскетбольное кольцо`,
-    link: "https://global.wildberries.ru/product/basketbolnoe-koltso-detskoe-221596072?option=351999857",
+    title: `<s>${ICON} Баскетбольное кольцо</s>`,
   },
   {
     title: `${ICON} Грузовик автовоз с машинкой`,
@@ -35,6 +34,8 @@ const CONFIG = [
     title: `${ICON} Кулер для воды детский`,
     link: "https://global.wildberries.ru/product/331866-kuler-dlya-vody-detskij-interaktivnaya-igrushka-177850419?option=294457917",
   },
+  { title: `${ICON} Сертификат в ZARA` },
+  { title: `${ICON} Сертификат в ДетМир` },
 ];
 
 const GiftsUI = () => {
@@ -45,10 +46,6 @@ const GiftsUI = () => {
         {CONFIG.map(({ title, link }) => {
           return (
             <div key={title} className="gift">
-              {/* <div
-                className="gift__title"
-                dangerouslySetInnerHTML={{ __html: title }}
-              /> */}
               {link ? (
                 <a
                   href={link}
@@ -56,7 +53,12 @@ const GiftsUI = () => {
                   target="_black"
                   dangerouslySetInnerHTML={{ __html: title }}
                 ></a>
-              ) : null}
+              ) : (
+                <span
+                  className="gift__span"
+                  dangerouslySetInnerHTML={{ __html: title }}
+                />
+              )}
             </div>
           );
         })}

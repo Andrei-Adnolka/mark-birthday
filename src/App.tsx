@@ -20,13 +20,13 @@ function App() {
         <span
           className="main--title"
           dangerouslySetInnerHTML={{
-            __html:
-              "Всем Внимание! <br/>Спасибо за внимание!<br/> Вот мне и 2!!! <br/> Как быстро, но не об этом",
+            __html: "Так Ты! Да, Ты! <br/>Мне скоро 2 <br/>и я жду тебя!",
           }}
         />
-        <TimerUI />
       </div>
       <div className="invite">
+        <span>Осталсось: </span>
+        <TimerUI />
         Хотел бы пригласить вас провести этот праздник со мной
       </div>
       <MapUI />
