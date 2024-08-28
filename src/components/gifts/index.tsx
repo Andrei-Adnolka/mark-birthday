@@ -8,7 +8,7 @@ const CONFIG = [
     link: "https://global.wildberries.ru/product/interaktivnaya-igrushka-dlya-detej-nazhimalka---zhivotnye-231976776?option=366028373",
   },
   {
-    title: `${ICON} Интерактивная игрушка 2`,
+    title: `<s>${ICON} Интерактивная игрушка 2</s>`,
     link: "https://global.wildberries.ru/product/interaktivnaya-igrushka-bukmark-s-knigoj-pro-zhivotnykh-116046186?option=207602371",
   },
   {
@@ -39,7 +39,7 @@ const CONFIG = [
     link: "https://www.wildberries.by/product/generator-peny-krab-230150286?option=363510361",
   },
   {
-    title: `${ICON} Игрушки для ванной на присосках`,
+    title: `<s>${ICON} Игрушки для ванной на присосках</s>`,
     link: "https://www.wildberries.by/product/igrushki-dlya-vannoj-na-prisoskakh-nabor-dlya-kupaniya-malyshej-160480520?option=266778410",
   },
   {
