@@ -35,7 +35,7 @@ const CONFIG = [
     link: "https://global.wildberries.ru/product/331866-kuler-dlya-vody-detskij-interaktivnaya-igrushka-177850419?option=294457917",
   },
   {
-    title: `${ICON} Генератор пены Краб`,
+    title: `<s>${ICON} Генератор пены Краб</s>`,
     link: "https://www.wildberries.by/product/generator-peny-krab-230150286?option=363510361",
   },
   {
@@ -43,11 +43,11 @@ const CONFIG = [
     link: "https://www.wildberries.by/product/igrushki-dlya-vannoj-na-prisoskakh-nabor-dlya-kupaniya-malyshej-160480520?option=266778410",
   },
   {
-    title: `${ICON} Набор тесто для лепки`,
+    title: `<s>${ICON} Набор тесто для лепки</s>`,
     link: "https://www.wildberries.by/product/nabor-testo-dlya-lepki-202998294?option=327171412",
   },
   {
-    title: `${ICON} Набор книжек с наклейками детскими`,
+    title: `<s>${ICON} Набор книжек с наклейками детскими</s>`,
     link: "https://www.wildberries.by/product/nabor-knizhek-s-naklejkami-detskimi-14125659?option=42199384",
   },
   {
@@ -59,7 +59,7 @@ const CONFIG = [
     link: "https://www.wildberries.by/product/okeanarium-9969852?option=32653917",
   },
   {
-    title: `${ICON} Пальчиковые краски`,
+    title: `<s>${ICON} Пальчиковые краски</s>`,
     link: "https://www.wildberries.by/product/palchikovye-kraski-dlya-malyshej-s-raskraskami-i-shtampami-156663853?option=261313018",
   },
   { title: `${ICON} Сертификат в ZARA` },
