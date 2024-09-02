@@ -27,7 +27,7 @@ const CONFIG = [
     link: "https://global.wildberries.ru/product/331885-gruzovik-avtovoz-s-mashinkoj-igrushechnyj-transport-41131794?option=82793943",
   },
   {
-    title: `${ICON} Детский растущий стул и стол`,
+    title: `<s>${ICON} Детский растущий стул и стол</s>`,
     link: "https://global.wildberries.ru/product/91030-detskij-rastushhij-stul-i-stol-komplekt-mebeli-white-180326244?option=298056923",
   },
   {
