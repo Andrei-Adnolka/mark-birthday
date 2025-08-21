@@ -5,34 +5,52 @@
     @include title;
     color: #193248;
   }
+
   &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 440px;
+    margin: 0 auto;
 
     .gift {
       display: flex;
+      width: calc(50% - 30px);
+      margin-bottom: 8px;
 
       &__title {
         @include commonText;
+
         @include media-md {
           text-align: left
         }
       }
+
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+
       &__link,
       &__span {
+        height: 100%;
         @include commonText;
         text-decoration: none;
-        transition: color .2s ease-in-out;
-        margin-left: 8px;
-        white-space: nowrap;
-        color: #007aff;
-        &:hover {
-          color: #0c2134;
-        }
-      }
-      &__span {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        text-align: left;
         color: #0c2134;
+
+
+        span {
+          margin-top: 8px;
+
+        }
       }
     }
   }
+
   &__note {
     margin-top: 8px;
     padding-top: 8px;

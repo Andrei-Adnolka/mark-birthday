@@ -4,8 +4,8 @@ import "./style.scss";
 const MapUI = ({ className }: { className: string }) => {
   return (
     <div className={`wrapper ${className}`}>
-      {/* <YMaps query={{ lang: "ru_RU" }}> */}
       <div className="map_container">
+        <div className="gifts__title">Маршрут построен</div>
         <iframe
           className="map_wrapper"
           title="yandex-map"
@@ -20,7 +20,10 @@ const MapUI = ({ className }: { className: string }) => {
                   <a href='https://verhom.by/' target="_blank">
                     Конная усадьба Буцевичи
                     <img src='https://verhom.by/sites/default/files/logo.png' alt="logo"/>
-                  </a>`,
+                  </a> <br/>
+                          <a href="https://g.co/kgs/2dav7qf" target="_blank" rel="noreferrer">
+          Тыкни сюдя и построиться маршрут
+        </a>`,
           }}
         />
         <img className="map_car" src={car} alt="car" />

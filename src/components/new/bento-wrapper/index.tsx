@@ -5,6 +5,7 @@ import "./style.scss";
 
 import logo from "../../../photos/main.jpg";
 import { TimerUI } from "../../timer";
+import GiftsUI from "../../gifts";
 
 export default function BentoWrapper() {
   return (
@@ -20,8 +21,8 @@ export default function BentoWrapper() {
         />
       </div>
       <MapBlock className="card" />
-
       <Gallery className="card" />
+      <GiftsUI />
       <div className="invite">
         <span>До мероприятия: </span>
         <TimerUI />

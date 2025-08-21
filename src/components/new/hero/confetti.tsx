@@ -6,7 +6,9 @@ import "./style.scss";
 function useConfetti() {
   useEffect(() => {
     const c = new jsConfetti();
-    c.addConfetti({ emojis: ["🎉", "🎂", "✨"] });
+    setTimeout(() => {
+      c.addConfetti({ emojis: ["🎉", "🎂", "✨"] });
+    }, 300);
     return () => c.destroyCanvas();
   }, []);
 }

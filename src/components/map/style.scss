@@ -96,20 +96,8 @@
     .map_wrapper {
       width: 660px;
       height: 400px;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      border: none;
       border-radius: 16px;
-
-      >ymaps {
-        border-radius: 8px;
-
-        >ymaps {
-          border-radius: 8px;
-
-          >ymaps {
-            border-radius: 8px;
-          }
-        }
-      }
 
       @include media-md {
         margin: 0 auto;
@@ -120,6 +108,7 @@
     .map_text {
       @include commonText;
       margin-left: 24px;
+      line-height: 28px !important;
       text-align: left;
       color: rgb(59, 59, 59);
 
@@ -127,16 +116,14 @@
         color: rgb(59, 59, 59);
         text-decoration: none;
         border-bottom: 1px solid dark;
+        position: relative;
 
         >img {
           width: 30px;
           height: 30px;
-
-          @include media-md {
-            position: absolute;
-            margin-left: 4px;
-            bottom: 0px;
-          }
+          bottom: -6px;
+          position: absolute;
+          margin-left: 4px;
         }
       }
 
@@ -146,45 +133,6 @@
         position: relative;
       }
     }
-  }
-}
-
-.mark_placeamark {
-  width: 40px;
-  height: auto;
-  max-height: 50px;
-  margin-top: -60px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-
-  @include media-md {
-    width: 30px;
-  }
-
-  >span {
-    margin-top: 2px;
-    color: #0d7c3b
-  }
-
-  >img {
-    width: 100%;
-    height: 100%;
-  }
-
-  &__kyky {
-    display: none;
-    width: 60px;
-    height: 20px;
-    text-align: center;
-    position: absolute;
-    background-color: white;
-    border-radius: 8px;
-    border: 1px solid black;
-    top: 0px;
-    left: 32px;
   }
 }
 
