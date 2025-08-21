@@ -58,7 +58,9 @@ const CONFIG = [
     title: "Аквапузики",
     link: "https://www.wildberries.by/catalog/267629878/detail.aspx?size=414607111",
   },
-  { title: `${ICON} Сертификат в ZARA <br/> ${ICON} Сертификат в ДетМир` },
+  {
+    title: `${ICON} Сертификат в ZARA <br/> <br/> ${ICON} Сертификат в ДетМир`,
+  },
 ];
 
 const GiftsUI = () => {
@@ -85,8 +87,7 @@ const GiftsUI = () => {
         })}
       </div>
       <div className="gifts__note">
-        * Если что то забронировали, из подарка, проинформи дайте моим
-        представителям знать
+        * Если что то забронировали, из подарка, дайте моим представителям знать
       </div>
     </div>
   );
