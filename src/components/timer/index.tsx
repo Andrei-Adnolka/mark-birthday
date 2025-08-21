@@ -1,5 +1,5 @@
 export const TimerUI = () => {
-  var countDownDate = new Date("Sep 9, 2024 17:00:00").getTime();
+  var countDownDate = new Date("Sep 9, 2025 17:00:00").getTime();
 
   var x = setInterval(function () {
     // Get today's date and time

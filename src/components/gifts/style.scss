@@ -1,7 +1,6 @@
 @import '../../common.scss';
 
 .gifts {
-  @include wrapper;
   &__title {
     @include title;
     color: #193248;

@@ -1,37 +1,29 @@
-import logo from "./photos/main.jpg";
+import JSConfetti from "js-confetti";
+import React, { useCallback } from "react";
 
 import MapUI from "./components/map";
-import ClothesInfo from "./components/clothes";
 import Gifts from "./components/gifts";
 import SliderUI from "./components/slider";
+
+import Hero from "./components/new/hero";
+import Bento from "./components/new/bento-wrapper";
 
 import "./App.scss";
 import { TimerUI } from "./components/timer";
 
 function App() {
+  const [confetti] = React.useState(() => new JSConfetti());
+
+  const fire = useCallback(() => {
+    confetti.addConfetti({
+      emojis: ["🎉", "🎂", "✨"],
+    });
+  }, [confetti]);
   return (
     <div className="layout">
-      <div className="main">
-        <div
-          className="main__image"
-          style={{ backgroundImage: `url("${logo}")` }}
-        />
-        <span
-          className="main--title"
-          dangerouslySetInnerHTML={{
-            __html: "Так Ты! Да, Ты! <br/>Мне скоро 2 <br/>и я жду тебя!",
-          }}
-        />
-      </div>
-      <div className="invite">
-        <span>Осталсось: </span>
-        <TimerUI />
-        Хотел бы пригласить вас провести этот праздник со мной
-      </div>
-      <MapUI />
-      <Gifts />
-      <ClothesInfo />
-      <SliderUI />
+      <Hero fire={fire} />
+      <div style={{ height: "40px", width: "100%" }} />
+      <Bento />
       <div className="thanks_block">Уже жду вас! Всех люблю</div>
     </div>
   );

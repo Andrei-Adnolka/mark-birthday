@@ -1,67 +1,31 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable react-hooks/rules-of-hooks */
-
-import { useRef, useState, useCallback } from "react";
-import { YMaps, Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
-
-import { getPlacemarkLayout } from "./placemarkLayout";
 import car from "../../photos/misha.png";
-
-import varejka from "../../photos/varejka.png";
-
 import "./style.scss";
 
-const MapUI = () => {
-  const [ymaps, setYmaps] = useState(null);
-  const mapRef = useRef(null);
-
-  const onMapLoad = useCallback((YMaps: any) => {
-    setYmaps(YMaps);
-  }, []);
-
-  const placeMark = {
-    geometry: [53.8678872, 27.529788],
-    properties: { hintContent: "Вось тут" },
-    modules: ["geoObject.addon.balloon", "geoObject.addon.hint"],
-    options: {
-      iconLayout: getPlacemarkLayout(ymaps, "mark"),
-    },
-  };
-
+const MapUI = ({ className }: { className: string }) => {
   return (
-    <div className="wrapper">
-      <YMaps query={{ lang: "ru_RU" }}>
-        <div className="map_title">Местро встречи изменить нельзя!</div>
-        <div className="map_container">
-          <Map
-            state={{ center: [53.8678872, 27.529788], zoom: 17 }}
-            className="map_wrapper"
-            // @ts-ignore
-            instanceRef={mapRef}
-            onLoad={onMapLoad}
-            options={{ maxZoom: 18, minZoom: 6 }}
-            modules={["templateLayoutFactory", "layout.ImageWithContent"]}
-          >
-            <Placemark {...placeMark} />
-            <ZoomControl
-              options={{
-                position: { left: "10px", top: "10px" },
-                size: "small",
-              }}
-            />
-          </Map>
-          <div
-            className="map_text"
-            dangerouslySetInnerHTML={{
-              __html: `Дата: 09.09.23 <br> 
-                 Время: 17:00 <br>
-                 Адрес: ул. Михаила Савицкого 10, Минск <br>
-                 <a href='https://www.instagram.com/varezhka_by/' target= _blank>Детский клуб-кофейня "Варежка" <img src=${varejka} alt="varejka" /></a>`,
-            }}
-          />
-          <img className="map_car" src={car} alt="car" />
-        </div>
-      </YMaps>
+    <div className={`wrapper ${className}`}>
+      {/* <YMaps query={{ lang: "ru_RU" }}> */}
+      <div className="map_container">
+        <iframe
+          className="map_wrapper"
+          title="yandex-map"
+          src="https://yandex.ru/map-widget/v1/?lang=ru_RU&scroll=true&source=constructor-api&um=constructor%3Acb5899d6e1549bfa11cb1b1765a95b6ddd14b4fd014e5630a96191f84406ba2b"
+        />
+
+        <div
+          className="map_text"
+          dangerouslySetInnerHTML={{
+            __html: `Дата: 13.09.25 <br/>
+                  Время: 17:00 <br/>
+                  <a href='https://verhom.by/' target="_blank">
+                    Конная усадьба Буцевичи
+                    <img src='https://verhom.by/sites/default/files/logo.png' alt="logo"/>
+                  </a>`,
+          }}
+        />
+        <img className="map_car" src={car} alt="car" />
+      </div>
+      {/* </YMaps> */}
     </div>
   );
 };

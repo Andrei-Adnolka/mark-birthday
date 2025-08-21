@@ -1,14 +1,13 @@
 @import '../../common.scss';
 
 .slider__wrapper {
-  @include wrapper;
-
   .slider_title {
     @include title;
   }
+
   .slider_images {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 16px;
     width: 440px;
     margin: 0 auto;
@@ -17,15 +16,19 @@
     }
 
     .slider_image {
-      width: 100%;
+      width: calc(50% - 8px);
+      height: 100%;
       >img {
         width: 100%;
         border-radius: 8px;
-        margin-bottom: -4px;
       }
-      > span {
-        font-size: 12px;
-        color: gray;;
+
+      &:nth-child(5) {
+        width: 100%;
+      }
+
+      &:last-of-type {
+        width: 100%;
       }
     }
   }
