@@ -17,7 +17,7 @@
   &__image {
     height: 100vh;
     width: 100%;
-    background-size: inherit;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top -100px center;
     background-attachment: fixed;
@@ -81,6 +81,7 @@
   font-size: 32px;
   line-height: 32px;
   color: #193248;
+  margin-bottom: 30px;
 
   >span {
     font-weight: 700;
@@ -90,7 +91,6 @@
     font-size: 24px;
     line-height: 28px;
     padding: 16px 0;
-    margin-bottom: 30px;
   }
 }
 
@@ -99,12 +99,13 @@
   line-height: 32px;
   color: white;
   background-color: #0d7c3b;
+  padding: 16px 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 
   @include media-md {
     font-size: 24px;
     line-height: 28px;
-    padding: 16px 0;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+
   }
 }
