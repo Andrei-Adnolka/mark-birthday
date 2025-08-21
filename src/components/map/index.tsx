@@ -21,7 +21,7 @@ const MapUI = ({ className }: { className: string }) => {
                     Конная усадьба Буцевичи
                     <img src='https://verhom.by/sites/default/files/logo.png' alt="logo"/>
                   </a> <br/>
-                          <a href="https://g.co/kgs/2dav7qf" target="_blank" rel="noreferrer">
+                          <a href="https://yandex.ru/maps/?text=54.1256855, 27.4816021" target="_blank" rel="noreferrer">
           Тыкни сюдя и построиться маршрут
         </a>`,
           }}

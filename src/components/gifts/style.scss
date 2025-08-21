@@ -13,10 +13,15 @@
     width: 440px;
     margin: 0 auto;
 
+    @include media-md {
+      width: 100%;
+    }
+
     .gift {
       display: flex;
-      width: calc(50% - 30px);
+      width: calc(50% - 8px);
       margin-bottom: 8px;
+
 
       &__title {
         @include commonText;
