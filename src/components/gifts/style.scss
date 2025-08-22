@@ -64,3 +64,14 @@
     border-top: 1px solid #0000006B;
   }
 }
+
+.done {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  span {
+    text-decoration: line-through;
+  }
+}

@@ -42,6 +42,7 @@ const CONFIG = [
     img: im3,
     link: "https://www.wildberries.by/catalog/144708417/detail.aspx?size=244033050",
     title: "Детский фотоаппарат",
+    class: "done",
   },
   {
     img: im4,
@@ -57,6 +58,7 @@ const CONFIG = [
     img: im6,
     title: "Аквапузики",
     link: "https://www.wildberries.by/catalog/267629878/detail.aspx?size=414607111",
+    class: "done",
   },
   {
     title: `${ICON} Сертификат в ZARA <br/> <br/> ${ICON} Сертификат в ДетМир`,
@@ -68,11 +70,11 @@ const GiftsUI = () => {
     <div className="gifts card">
       <div className="gifts__title">Таааксс. И что же вам мне подарить*</div>
       <div className="gifts__list">
-        {CONFIG.map(({ title, link, img: imgLink }) => {
+        {CONFIG.map(({ title, link, img: imgLink, class: lc }) => {
           return (
             <div key={title} className="gift">
               {link ? (
-                <a href={link} className="gift__link" target="_black">
+                <a href={link} className={`gift__link ${lc}`} target="_black">
                   <img className="gift__image" src={imgLink} alt="gift" />
                   <span>{title}</span>
                 </a>
