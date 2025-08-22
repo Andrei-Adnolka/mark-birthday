@@ -17,6 +17,7 @@ const CONFIG = [
     img: im7,
     link: "https://www.wildberries.by/catalog/196864047/detail.aspx?size=319390679",
     title: "Детская Кухня",
+    class: "done",
   },
   {
     img: im8,
@@ -48,11 +49,13 @@ const CONFIG = [
     img: im4,
     title: "Набор для изучения насекомых",
     link: "https://www.wildberries.ru/catalog/165226683/detail.aspx?size=275153014&utm_source=followish",
+    class: "done",
   },
   {
     img: im5,
     title: "Набор опытов",
     link: "https://www.wildberries.by/catalog/345902472/detail.aspx?size=513430084",
+    class: "done",
   },
   {
     img: im6,
