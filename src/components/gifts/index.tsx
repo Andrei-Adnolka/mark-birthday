@@ -28,6 +28,7 @@ const CONFIG = [
     img: im9,
     link: "https://www.wildberries.by/catalog/270775725/detail.aspx?size=418589396",
     title: "Детский игровой набор",
+    class: "done",
   },
   {
     img: im1,
